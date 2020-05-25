@@ -1,0 +1,18 @@
+windows + r 
+shell:startup
+cole um atalho do hidecmd.vbs
+
+piw é pra não aparecer o terminal quando executar
+
+disable windows defender notifications:
+acesse as chaves (se não existir crie)
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\UX Configuration
+
+Notification_Suppress valor: 1
+
+
+disable windows defender notifications:
+acesse as chaves (se não existir crie)
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender\
+DisableAntiSpyware  valor: 1
+
